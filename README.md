@@ -23,6 +23,12 @@ This project aims to build a machine learning pipeline that combines satellite i
 - Drainage and infrastructure data
 - Geographic and land-use data
 
+## System Architecture
+
+The proposed proof of concept combines multiple data sources into one flood risk analytics pipeline. These include satellite and map data, weather and rainfall data, historical flood records, drainage and infrastructure information, and IoT water-level sensors. The pipeline is designed to ingest, clean, and transform these inputs into model-ready features that can support flood risk scoring, alerts, and insurance or planning insights.
+
+![Flood Risk Architecture](docs/architecture_diagram.svg)
+
 ## Repository Structure
 ```text
 flood-data/
